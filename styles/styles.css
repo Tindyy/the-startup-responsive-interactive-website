@@ -114,14 +114,19 @@ nav a{
   color: var(--text-color);
 }
 
+img .square-icon{
+  rotate: 90deg;
+}
+
 /*property details*/
 .property-details {
+  margin: 2em;
     background-color: var(--color-white);
     overflow: hidden;
   }
 
   .property-details h1 {
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-larges);
     margin: 0;
     padding: var(--spacing-medium);
     color: var(--text-color);
@@ -191,25 +196,21 @@ nav a{
   /*footer*/
 
   footer{
+    margin-top: 4em;
     background-color: var(--color-broken-white); 
     color: var(--color-orange);
   }
 
-
-@media (min-width:48em) {
-  .footer-content {
-    display: flex; 
-    justify-content: space-between;
-    gap: var(--spacing-medium); 
-    padding: var(--spacing-large);
-    flex-wrap: wrap; 
+  footer ul li a{
+    color: var(--text-color);
   }
-  .footer-section {
 
+  .footer-section {
+    margin: 2em 2em;
     min-width: 200px; 
     background-color: var(--color-broken-white);
   }
-  
+
   .footer-section h3 {
     font-size: var(--font-size-small);
     font-weight: var(--bold);
@@ -225,6 +226,17 @@ nav a{
   .footer-section li {
     margin-bottom: var(--spacing-small);
   }
+
+
+@media (min-width:48em) {
+  .footer-content {
+    display: flex; 
+    justify-content: space-between;
+    gap: var(--spacing-medium); 
+    padding: var(--spacing-large);
+    flex-wrap: wrap; 
+  }
+  
   
   .footer-section li a {
     color: var(--text-color);
