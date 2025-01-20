@@ -13,6 +13,12 @@ nav a{
     color: var(--color-white);
 }
 
+nav ul li img{
+  height: 20%;
+  width: auto;
+
+}
+
 .menu{
     display: none;
     list-style: none;
@@ -104,12 +110,16 @@ nav a{
 
 /* Description Section */
 .propert-information-container h2 {
-  font-size: 1.2rem;
+  font-size: var(--font-size-small);
   margin-top: 1rem;
 }
 
+.propert-information-container h3{
+  font-size: var(--font-size-extra-small);
+}
+
 .propert-information-container article p {
-  font-size: 1rem;
+  font-size: var(--font-size-small);
   line-height: 1.5;
   color: var(--text-color);
 }
