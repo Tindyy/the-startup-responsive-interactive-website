@@ -205,6 +205,10 @@ img .square-icon{
     color: var(--text-color);
   }
 
+  .footer-container{
+    padding: 2em 1.5em;
+  }
+
   .footer-section {
     margin: 2em 2em;
     min-width: 200px; 
@@ -227,9 +231,11 @@ img .square-icon{
     margin-bottom: var(--spacing-small);
   }
 
+  
+
 
 @media (min-width:48em) {
-  .footer-content {
+  .footer-container {
     display: flex; 
     justify-content: space-between;
     gap: var(--spacing-medium); 
@@ -237,6 +243,7 @@ img .square-icon{
     flex-wrap: wrap; 
   }
   
+
   
   .footer-section li a {
     color: var(--text-color);
