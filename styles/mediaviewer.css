@@ -144,18 +144,6 @@
     width: auto;
 }
 
-.icon-overlay{
-    position: absolute;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    pointer-events: none;
-    transform: translate(-50%, -50%); /* Centers the icon */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-}
 
 .media-teaser { 
     display: none; 
