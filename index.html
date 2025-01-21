@@ -69,15 +69,12 @@
         </ul>
       <ul class="nav-item">
         <li>
-          <img src="./assets/icons/home (1).png" alt="">
           <a href="#myHome" aria-label="Home">Mijn huis</a>
         </li>
         <li>
-          <img src="./assets/icons/love.png" alt="">
           <a href="#favorite" aria-label="Favorite">Favorieten</a>
         </li>
         <li>
-          <img src="./assets/icons/user (1).png" alt="">
             <path
               d="M8.21045 7.85544C7.15678 7.85544 6.25477 7.48027 5.50441 6.72994C4.75406 5.97958 4.37888 5.07757 4.37888 4.0239C4.37888 2.97021 4.75406 2.06819 5.50441 1.31785C6.25477 0.567499 7.15678 0.192322 8.21045 0.192322C9.26413 0.192322 10.1661 0.567499 10.9165 1.31785C11.6669 2.06819 12.042 2.97021 12.042 4.0239C12.042 5.07757 11.6669 5.97958 10.9165 6.72994C10.1661 7.48027 9.26413 7.85544 8.21045 7.85544ZM-9.15527e-05 16.1923V13.7587C-9.15527e-05 13.2225 0.145527 12.726 0.436765 12.2692C0.727985 11.8124 1.1171 11.4611 1.60412 11.2155C2.68623 10.685 3.77782 10.2871 4.87888 10.0218C5.97993 9.75657 7.09046 9.62394 8.21045 9.62394C9.33045 9.62394 10.441 9.75657 11.542 10.0218C12.6431 10.2871 13.7347 10.685 14.8168 11.2155C15.3038 11.4611 15.6929 11.8124 15.9841 12.2692C16.2754 12.726 16.421 13.2225 16.421 13.7587V16.1923H-9.15527e-05ZM1.642 14.5502H14.7789V13.7587C14.7789 13.5369 14.7147 13.3316 14.5863 13.1429C14.4579 12.9541 14.2835 12.8 14.0631 12.6807C13.12 12.2162 12.1582 11.8643 11.178 11.6249C10.1977 11.3857 9.20853 11.266 8.21045 11.266C7.21238 11.266 6.2232 11.3857 5.24293 11.6249C4.26266 11.8643 3.30095 12.2162 2.35779 12.6807C2.13744 12.8 1.96306 12.9541 1.83464 13.1429C1.70621 13.3316 1.642 13.5369 1.642 13.7587V14.5502ZM8.21045 6.21338C8.81256 6.21338 9.328 5.99899 9.75678 5.57022C10.1856 5.14145 10.3999 4.626 10.3999 4.0239C10.3999 3.42179 10.1856 2.90635 9.75678 2.47757C9.328 2.0488 8.81256 1.83441 8.21045 1.83441C7.60835 1.83441 7.0929 2.0488 6.66413 2.47757C6.23536 2.90635 6.02097 3.42179 6.02097 4.0239C6.02097 4.626 6.23536 5.14145 6.66413 5.57022C7.0929 5.99899 7.60835 6.21338 8.21045 6.21338Z"
               fill="#747474"
@@ -97,28 +94,30 @@
         <!--media viewer-->
     <section class="media-viewer">
             
-     <div class="gallery">
-       <!-- Main Image -->
+     <article class="gallery">
+      <div class="media-gallery-container">
+               <!-- Main Image -->
        <img class=" main-image one" id="main-image" src="./assets/images/344_1080x720.jpg" alt="Main Image">
     
        <!-- Thumbnails -->
        <button class="scroll-button left" aria-label="Scroll left" >←</button>
 
        <div class="thumbnail-container">
-         <img class="multiple-images two" src="./assets/images/836_720x480.jpg" src="./assets/images/836_720x480.jpg" alt="Thumbnail">
-         <img class="multiple-images three" src="./assets/images/839_1440.jpg" src="./assets/images/839_1440.jpg" alt="Thumbnail">
-         <img class="multiple-images four" src="./assets/images/840_720x480.jpg" src="./assets/images/840_720x480.jpg" alt="Thumbnail">
-         <img class="multiple-images five" src="./assets/images/839_720x480.jpg" src="./assets/images/839_720x480.jpg" alt="Thumbnail ">
-         <img class="multiple-images six" src="./assets/images/002_720x480.jpg" src="./assets/images/002_720x480.jpg" alt="Thumbnail ">
-         <img class="multiple-images seven" src="./assets/images/014_720x480.jpg" src="./assets/images/014_720x480.jpg" alt="Thumbnail ">
+         <img class="thumbnail two" src="./assets/images/836_720x480.jpg" src="./assets/images/836_720x480.jpg" alt="Thumbnail">
+         <img class="thumbnail three" src="./assets/images/839_1440.jpg" src="./assets/images/839_1440.jpg" alt="Thumbnail">
+         <img class="thumbnail four" src="./assets/images/840_720x480.jpg" src="./assets/images/840_720x480.jpg" alt="Thumbnail">
+         <img class="thumbnail five" src="./assets/images/839_720x480.jpg" src="./assets/images/839_720x480.jpg" alt="Thumbnail ">
+         <img class="thumbnail six" src="./assets/images/002_720x480.jpg" src="./assets/images/002_720x480.jpg" alt="Thumbnail ">
+         <img class="thumbnail seven" src="./assets/images/014_720x480.jpg" src="./assets/images/014_720x480.jpg" alt="Thumbnail ">
        </div>
+      </div>
 
        <button class="scroll-button right" aria-label="Scroll right">→</button>
-    <!--
+       <!--
        <div class="attribute-chip">
          <p>1/1</p>
        </div>
-       -->
+        -->
 
    
         <div class="button-group">
@@ -129,12 +128,12 @@
      <!--media teaser-->
 
      <div class="media-teaser">
-        <a aria-label="photos" class="photos" href="#">[] foto's</a>
-        <a aria-label="360 photos" class="360" href="#">[] 360 foto's</a>
-        <a aria-label="video" class="video" href="#">[] video</a>
-        <a aria-label="3d tour" class="3d-tour" href="#">[] 3d tour</a>
-        <a aria-label="map" class="map" href="#">[] map</a>
-        <a aria-label="all media" class="all-media" href="#">[] alle media</a>
+        <a aria-label="photos" class="photos" href="#"> foto's</a>
+        <a aria-label="360 photos" class="360" href="#"> 360 foto's</a>
+        <a aria-label="video" class="video" href="#"> video</a>
+        <a aria-label="3d tour" class="3d-tour" href="#">3d tour</a>
+        <a aria-label="map" class="map" href="#">Plattegrond</a>
+        <a aria-label="all media" class="all-media" href="#"> alle media</a>
      </div>
     </section>
 
@@ -144,11 +143,13 @@
                 <h1>Pelzerpark 16</h1>
                 <p>8162 GA Epe <a href="#">hogeland</a></p>
 
-                <p><img src="./assets/icons/square.png" class="square-icon" alt=""> <strong>136 m2</strong> wonen </p>
-                <p><img src="./assets/icons/blueprint.png" alt=""> <strong>960 m2</strong> perceel</p>
-                <p><img src="./assets/icons/double-bed.png" alt=""> <strong>4</strong> slaapkamers</p>
+                <div class="property-features">
+                  <p><img src="./assets/icons/square.png" class="square-icon" alt=""> <strong>136 m2</strong> wonen </p>
+                  <p><img src="./assets/icons/blueprint.png" alt=""> <strong>960 m2</strong> perceel</p>
+                  <p><img src="./assets/icons/double-bed.png" alt=""> <strong>4</strong> slaapkamers</p>
+                </div>
 
-                <p><strong>1.185.00 k.k.</strong></p>
+                <p><strong>€ 1.185.00 k.k.</strong></p>
                 <p><a href="https://www.funda.nl/hypotheek/maandlasten/ing/?id=43591965"><img src="./assets/icons/calculator.png" alt="">wat worden mijn maandlasten?</a></p>
             </article>
             <article>

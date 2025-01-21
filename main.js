@@ -1,5 +1,5 @@
   // Select all the thumbnail images
-  const thumbnail = document.querySelectorAll('.gallery img.multiple-images');
+  const thumbnail = document.querySelectorAll('.gallery img.thumbnail');
 
   // Select the main image
   const mainImage = document.getElementById('main-image');

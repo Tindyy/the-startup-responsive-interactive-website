@@ -22,10 +22,12 @@ nav ul li img{
 .menu{
     display: none;
     list-style: none;
+}
 
-    @media ( min-width: 48em){
-        display: flex;
-    }
+@media ( min-width: 48em){
+  .menu{
+    display: flex;
+  }
 }
 
 .menu li{
@@ -47,6 +49,19 @@ nav ul li img{
     cursor: pointer;
 }
 
+/*main*/
+
+main{
+  padding: 2em;
+}
+
+@media (min-width:37em){
+
+  main{
+    padding: 2em 15em;
+  }
+}
+
 /*property information*/
 .propert-information-container {
   display: flex;
@@ -61,6 +76,8 @@ nav ul li img{
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  padding: var(--spacing-medium);
+  border-bottom: 0.1rem solid #ddd;
 }
 
 
@@ -108,6 +125,7 @@ nav ul li img{
   gap: 0.5rem;
 }
 
+
 /* Description Section */
 .propert-information-container h2 {
   font-size: var(--font-size-small);
@@ -124,6 +142,7 @@ nav ul li img{
   color: var(--text-color);
 }
 
+
 img .square-icon{
   rotate: 90deg;
 }
@@ -136,9 +155,9 @@ img .square-icon{
   }
 
   .property-details h1 {
-    font-size: var(--font-size-larges);
+    font-size: var(--font-size-large);
     margin: 0;
-    padding: var(--spacing-medium);
+    padding: 2em 0em;
     color: var(--text-color);
     border-bottom: 1px solid var(--color-light-pink);
   }
@@ -201,7 +220,6 @@ img .square-icon{
     flex-direction: column;
     
   }
-  
 
   /*footer*/
 
@@ -301,7 +319,18 @@ img .square-icon{
     color: var(--color-blue);
   }
 
-  @media (max-width: 48em) {
+  @media (min-width: 37em) {
+
+    .property-features{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .property-features p{
+      margin: .5em;
+    }
+
+
     .property-details h1 {
       font-size: var(--font-size-medium);
     }
