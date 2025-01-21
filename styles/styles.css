@@ -52,7 +52,7 @@ nav ul li img{
 /*main*/
 
 main{
-  padding: 2em;
+  padding: .75em;
 }
 
 @media (min-width:37em){
