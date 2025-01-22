@@ -49,4 +49,3 @@ thumbnails.forEach((thumbnail, index) => {
   }
 });
 
- 
