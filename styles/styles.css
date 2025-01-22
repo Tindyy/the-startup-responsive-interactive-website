@@ -11,6 +11,7 @@ nav{
 
 nav a{
     color: var(--color-white);
+    font-weight: 600;
 }
 
 nav ul li img{
@@ -209,7 +210,7 @@ img .square-icon{
     margin-left: var(--spacing-small);
   }
 
-  @media (max-width: 48em) {
+  @media (max-width: 37em) {
     .property-details h1 {
       font-size: var(--font-size-medium);
     }
@@ -218,6 +219,26 @@ img .square-icon{
     .property-details td {
       padding: var(--spacing-small);
     }
+
+    .property-features{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .property-features p{
+      margin: .5em;
+    }
+
+
+    .property-details h1 {
+      font-size: var(--font-size-medium);
+    }
+
+    .property-details th,
+    .property-details td {
+      padding: var(--spacing-small);
+    }
+
   }
 
   /*property information*/
@@ -326,26 +347,6 @@ img .square-icon{
   }
 
   @media (min-width: 37em) {
-
-    .property-features{
-      display: flex;
-      flex-direction: row;
-    }
-
-    .property-features p{
-      margin: .5em;
-    }
-
-
-    .property-details h1 {
-      font-size: var(--font-size-medium);
-    }
-
-    .property-details th,
-    .property-details td {
-      padding: var(--spacing-small);
-    }
-
 
     .footer-bottom {
       flex-direction: column;
