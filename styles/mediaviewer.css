@@ -257,6 +257,10 @@
     .media-teaser a.fotos-360, a.tour, a.video{
         display: none;
     }
+
+    .media-viewer-icons{
+        width: 15%;
+    }
 }
 
 
