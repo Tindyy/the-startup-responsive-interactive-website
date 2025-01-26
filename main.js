@@ -11,7 +11,6 @@
           const newSrc = thumbnail.getAttribute('data-src');
           mainImage.setAttribute('src', newSrc);
 
-          // Optionally, you can add a small animation effect
           mainImage.classList.add('fade-in');
           setTimeout(() => {
               mainImage.classList.remove('fade-in');
