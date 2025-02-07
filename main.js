@@ -8,7 +8,7 @@
   thumbnails.forEach(thumbnail => {
       thumbnail.addEventListener('click', function () {
           // Update the `src` of the main image with the `data-src` of the clicked thumbnail
-          const newSrc = thumbnail.getAttribute('data-src');
+          const newSrc = thumbnail.getAttribute('src');
           mainImage.setAttribute('src', newSrc);
 
           mainImage.classList.add('fade-in');
